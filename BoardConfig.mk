@@ -8,6 +8,9 @@ DEVICE_PATH := device/retroidpocket/RP5
 # Include the common OEM chipset BoardConfig.
 include device/ayn/sxr2130p-common/BoardConfigCommon.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 360
+
 # DTBO
 BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/dtboimg.cfg
 

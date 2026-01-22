@@ -1,0 +1,5 @@
+## All proprietary files from this list, unless pinned and noted otherwise, are
+## from RP5.20251128.173135
+
+# Controller firmware
+vendor/firmware/mcuapp_firmware.bin

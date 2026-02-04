@@ -15,5 +15,9 @@ BOARD_DTBO_CFG := $(DEVICE_PATH)/configs/kernel/dtboimg.cfg
 DEVICE_PROPERTIES_PATH := $(DEVICE_PATH)/properties
 TARGET_VENDOR_PROP += $(DEVICE_PROPERTIES_PATH)/vendor.prop
 
+# Recovery
+TARGET_RECOVERY_DEFAULT_ROTATION := ROTATION_LEFT
+TARGET_RECOVERY_DEFAULT_TOUCH_ROTATION := ROTATION_RIGHT
+
 # Include the proprietary files BoardConfig.
 include vendor/retroidpocket/RP5/BoardConfigVendor.mk

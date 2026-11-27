@@ -1,5 +1,13 @@
 ## All proprietary files from this list, unless pinned and noted otherwise, are
-## from RP5.20251128.180301
+## from RP5.20260725.150117
+
+# Bootloader (RP5) - from RP5.20251128.180301
+./xbl.elf:odm/etc/firmware/mdss_dsi_ch13726a_amoled_video/xbl.img|37417c0fb5f19e4a1033dbdbda5ed4a7215b19db
+./xbl_config.elf:odm/etc/firmware/mdss_dsi_ch13726a_amoled_video/xbl_config.img|f4fd5604d414739c449ef21d53e02012fd431346
+
+# Bootloader (RP5H)
+./xbl.elf:odm/etc/firmware/mdss_dsi_vtdr6130_visionox_cog_cmd/xbl.img
+./xbl_config.elf:odm/etc/firmware/mdss_dsi_vtdr6130_visionox_cog_cmd/xbl_config.img
 
 # Controller firmware
 vendor/firmware/mcuapp_firmware.bin

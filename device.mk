@@ -13,7 +13,8 @@ PRODUCT_COPY_FILES += \
 
 # Overlay
 PRODUCT_PACKAGES += \
-    Frameworks-RP5-Overlay
+    Frameworks-RP5-Overlay \
+    Settings-RP5-Overlay
 
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
